@@ -1,0 +1,53 @@
+.recent {
+  background-color: var(--section-overlay);
+  backdrop-filter: blur(10px);
+  color: white;
+  height: fit-content;
+  margin-bottom: 20px;
+  overflow-y: auto;
+  min-height: 250px;
+  border-radius: 12px;
+}
+.cityName {
+  background-color: var(--section-overlay);
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 30px;
+  max-width: 180px;
+  margin: auto;
+}
+.cityName:hover{
+  cursor: pointer;
+}
+
+.cityList-container {
+  max-height: 200px; 
+  overflow-y: auto;
+}
+
+.cityList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the scrollbar */
+.cityList-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.cityList-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.cityList-container::-webkit-scrollbar-thumb {
+  background: #c7bbbb; 
+  border-radius: 4px; 
+}
+
+.cityList-container::-webkit-scrollbar-thumb:hover {
+  background: #722222; 
+}

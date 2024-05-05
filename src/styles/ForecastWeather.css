@@ -1,0 +1,15 @@
+.card {
+  border: 1.5px solid;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--section-overlay);
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.card:hover {
+  transition: all 500ms ease-out;
+  scale: 1.10;
+}

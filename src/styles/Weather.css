@@ -1,0 +1,53 @@
+.weather-content {
+  background-color: var(--section-overlay);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+}
+
+.search {
+  color: white;
+}
+
+.search > input {
+  border: 0.8px solid white;
+  border-radius: 0.4rem;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.search > input::placeholder {
+  color: white;
+}
+
+.search > input :focus {
+  outline: none !important;
+  border: none;
+}
+
+.search > i:hover {
+  cursor: pointer;
+}
+.current-location {
+  border-radius: 30px;
+  background-color: white;
+  padding: 5px;
+  max-width: 215px;
+}
+.current-location > h5 {
+  margin-bottom: 0px !important;
+}
+.current-location:hover {
+  cursor: pointer;
+}
+
+.unit-btn > button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 00.4rem;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+}

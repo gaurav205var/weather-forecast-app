@@ -1,7 +1,3 @@
-Got it! Here's the updated README file with the provided live demo link included:
-
----
-
 # Weather Forecast App
 
 ## Overview

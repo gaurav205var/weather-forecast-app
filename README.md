@@ -1,4 +1,4 @@
-Based on the provided information, here's a sample README file for your Weather Forecast App:
+Got it! Here's the updated README file with the provided live demo link included:
 
 ---
 
@@ -29,11 +29,15 @@ The Weather Forecast App is a web application that allows users to get weather i
 
 To run the Weather Forecast App locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/weather-forecast-app.git`
+1. Clone the repository: `git clone https://github.com/gaurav205var/weather-forecast-app.git`
 2. Navigate to the project directory: `cd weather-forecast-app`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 5. Open your browser and visit `http://localhost:3000` to view the app.
+
+## Live Demo
+
+A live demo of the Weather Forecast App can be accessed [here](https://gaurav205var.github.io/weather-forecast-app/).
 
 ## Deployment
 
@@ -46,4 +50,3 @@ The Weather Forecast App can be deployed to various hosting platforms. To deploy
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
